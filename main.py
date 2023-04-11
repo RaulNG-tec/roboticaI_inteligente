@@ -41,5 +41,6 @@ if __name__ == "__main__":
     plt.plot(ts, x_filtered, alpha=0.8, lw=3, label="SciPy lfilter")
     plt.xlabel("Time / s") 
     plt.ylabel("Amplitude")
-    plt.legend(loc="lower center", bbox_to_anchors=[0.5, 1], ncol=2, fontsize="smaller")
+    plt.legend(loc="lower center", bbox_to_anchor=[0.5, 1], ncol=2, fontsize="smaller")
     plt.tight_layout()
+    plt.show()
